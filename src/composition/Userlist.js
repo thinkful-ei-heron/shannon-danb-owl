@@ -4,9 +4,27 @@ import Useritem from './Useritem'
 
 function UserList() {
   const participants = STORE.participants;
+  const list = [];
+  
+  participants.forEach(item => {
+    if (item.onStage){
+      list.push(item);
+    }
+  });
+  participants.forEach(item => {
+    if (item.inSession && !item.onStage) {
+      list.push(item);
+    }
+  })
+  participants.forEach(item => {
+    if (!item.inSession && !item.onStage) {
+      list.push(item)
+    }
+  });
+
   return (
     <div>
-      {participants.map(user => {
+      {list.map(user => {
         return <Useritem
           key={user.id}
           avatar={user.avatar}
