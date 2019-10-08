@@ -1,10 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Stage from './composition/Stage'
+import Footer from './composition/Footer'
 
 function App() {
   return (
     <div className="App">
+      <Stage />
+
+
+
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+
+
     //
     //<Sidebar />
     //  If chatting
@@ -13,11 +27,7 @@ function App() {
     //  If !chatting
     //    <UserList />
     //      <UserItem />
-    //<Stage />
+
+
     //  <Actor />   //Can we just use the UserItem and chage the css? Or pototype it?
     //<Footer />
-    </div>
-  );
-}
-
-export default App;
