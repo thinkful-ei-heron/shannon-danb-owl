@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-    {/* //
+      {/* //
     //<Sidebar />
     //  If chatting
     //    <Chat />
@@ -14,7 +14,8 @@ function App() {
     //  If !chatting
     //    <UserList />
     //      <UserItem />
-    //<Stage />
+
+
     //  <Actor />   //Can we just use the UserItem and chage the css? Or pototype it?
     //<Footer /> */}
     </div>
