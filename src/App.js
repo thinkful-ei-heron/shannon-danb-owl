@@ -5,14 +5,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    //check state of sideBar
     //
     //<Sidebar />
-    //  If chat
+    //  If chatting
     //    <Chat />
-    //  If !chat
+    //      <ChatItem />
+    //  If !chatting
     //    <UserList />
+    //      <UserItem />
     //<Stage />
+    //  <Actor />   //Can we just use the UserItem and chage the css? Or pototype it?
     //<Footer />
     </div>
   );
