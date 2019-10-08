@@ -1,0 +1,33 @@
+.participantInfo {
+  list-style:none;
+  padding: 0;
+  text-align: left;
+  position: relative;
+  left: 55px;
+  top: 13px;
+}
+
+.avatar {
+  width: 50px;
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+}
+
+.greenCircle {
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.greyCircle {
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  background-color: gray;
+  border-radius: 50%;
+}
