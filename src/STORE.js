@@ -1,4 +1,4 @@
-STORE = {
+const STORE = {
   participants: [
     {
         id: 1,

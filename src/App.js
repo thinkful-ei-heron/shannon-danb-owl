@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Stage from './composition/Stage'
 import Footer from './composition/Footer'
+import STORE from './STORE'
 
 function App() {
   return (
