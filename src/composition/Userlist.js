@@ -1,5 +1,5 @@
 import React from 'react';
-import STORE from './STORE.js';
+import STORE from './../STORE.js';
 import Useritem from './Useritem'
 
 function UserList() {
