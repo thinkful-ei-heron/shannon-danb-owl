@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering Sidebar renders correctly 1`] = `
+<div
+  className="js-Sidebar"
+>
+  <nav>
+    <ul
+      className="navToolsList"
+    >
+      <li>
+        Chat
+      </li>
+      <li>
+        Participants
+      </li>
+      <li>
+        Settings
+      </li>
+      <li>
+        URL
+      </li>
+      <li>
+        FAQ
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="Chat"
+  />
+  <div
+    className="Participants"
+  >
+    <div>
+      <div
+        className="eachParticipantInfo"
+      >
+        <img
+          alt="avatar"
+          className="avatar"
+          src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+        />
+        <ul
+          className="participantInfo"
+        >
+          <li>
+            Koren Templeton
+          </li>
+          <li>
+            <span
+              className="greenCircle"
+            />
+            on stage
+          </li>
+        </ul>
+      </div>
+      <div
+        className="eachParticipantInfo"
+      >
+        <img
+          alt="avatar"
+          className="avatar"
+          src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+        />
+        <ul
+          className="participantInfo"
+        >
+          <li>
+            Caty Flucker
+          </li>
+          <li>
+            <span
+              className="greenCircle"
+            />
+            in session
+          </li>
+        </ul>
+      </div>
+      <div
+        className="eachParticipantInfo"
+      >
+        <img
+          alt="avatar"
+          className="avatar"
+          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+        />
+        <ul
+          className="participantInfo"
+        >
+          <li>
+            Axe Kubicka
+          </li>
+          <li>
+            <span
+              className="greyCircle"
+            />
+            left session
+          </li>
+        </ul>
+      </div>
+      <div
+        className="eachParticipantInfo"
+      >
+        <img
+          alt="avatar"
+          className="avatar"
+          src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+        />
+        <ul
+          className="participantInfo"
+        >
+          <li>
+            Frank Runciman
+          </li>
+          <li>
+            <span
+              className="greenCircle"
+            />
+            in session
+          </li>
+        </ul>
+      </div>
+      <div
+        className="eachParticipantInfo"
+      >
+        <img
+          alt="avatar"
+          className="avatar"
+          src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+        />
+        <ul
+          className="participantInfo"
+        >
+          <li>
+            Ashla Attwool
+          </li>
+          <li>
+            <span
+              className="greenCircle"
+            />
+            on stage
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+.navToolsList {
+  list-style:none;
+  display: flex;
+}
+
+.navToolsList li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.js-Sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering Useritem renders correctly (onStage and inSession are both false) 1`] = `
+<div
+  className="eachParticipantInfo"
+>
+  <img
+    alt="avatar"
+    className="avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <ul
+    className="participantInfo"
+  >
+    <li>
+      Johnny
+    </li>
+    <li>
+      <span
+        className="greenCircle"
+      />
+      on stage
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`rendering Useritem renders correctly (onStage is false, inSession is true) 1`] = `
+<div
+  className="eachParticipantInfo"
+>
+  <img
+    alt="avatar"
+    className="avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <ul
+    className="participantInfo"
+  >
+    <li>
+      Johnny
+    </li>
+    <li>
+      <span
+        className="greenCircle"
+      />
+      on stage
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`rendering Useritem renders correctly (onStage is true, in Session is false) 1`] = `
+<div
+  className="eachParticipantInfo"
+>
+  <img
+    alt="avatar"
+    className="avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <ul
+    className="participantInfo"
+  >
+    <li>
+      Johnny
+    </li>
+    <li>
+      <span
+        className="greenCircle"
+      />
+      on stage
+    </li>
+  </ul>
+</div>
+`;
