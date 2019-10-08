@@ -1,7 +1,7 @@
 import React from 'react';
 
 function ChatItem(props) {
-    {if(props.type === 'message'){
+    if (props.type === 'message') {
       return (
         <div>
           <div>
@@ -19,14 +19,13 @@ function ChatItem(props) {
         </div>
       )
     }
-      else {
-        return (
-          <div>
-            {props.name} + {props.type}
-          </div>
-        )
-      }
-}
+    else {
+      return (
+        <div>
+        {props.name} + {props.type}
+        </div>
+      )
+    }
+  }
 
-}
 export default ChatItem;
