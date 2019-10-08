@@ -5,6 +5,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    //check state of sideBar
+    //
+    //<Sidebar />
+    //  If chat
+    //    <Chat />
+    //  If !chat
+    //    <UserList />
+    //<Stage />
+    //<Footer />
     </div>
   );
 }
