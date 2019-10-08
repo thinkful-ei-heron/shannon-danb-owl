@@ -3,9 +3,9 @@ import './Footer.css';
 
 function Footer(){
   return (
-    <div>
-    test
-    </div>
+    <footer>
+      stuff in here 
+    </footer>
   )
 }
 

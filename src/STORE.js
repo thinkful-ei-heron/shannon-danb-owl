@@ -91,3 +91,5 @@ const STORE = {
 	],
 	chatting: false
 }
+
+export default STORE;
