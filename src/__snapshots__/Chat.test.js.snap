@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering Sidebar renders correctly 1`] = `
+<div
+  className="chat-window"
+>
+  <div
+    className="stream"
+  >
+    <div>
+      <div>
+        <img
+          alt=""
+          className="message-img"
+        />
+      </div>
+      <div>
+        <header
+          className="message-header"
+        >
+          <h5>
+            Axe Kubicka
+          </h5>
+          <p>
+            4:48
+          </p>
+        </header>
+        <div
+          className="message-body"
+        >
+          Hello world
+        </div>
+      </div>
+    </div>
+    <div>
+      Caty Flucker
+       + 
+      thumbs-up
+    </div>
+    <div>
+      Frank Runciman
+       + 
+      thumbs-down
+    </div>
+    <div>
+      Koren Templeton
+       + 
+      raise-hand
+    </div>
+    <div>
+      Koren Templeton
+       + 
+      clap
+    </div>
+    <div>
+      Koren Templeton
+       + 
+      join
+    </div>
+    <div>
+      Ashla Attwool
+       + 
+      leave
+    </div>
+    <div>
+      Axe Kubicka
+       + 
+      join-stage
+    </div>
+    <div>
+      Axe Kubicka
+       + 
+      leave-stage
+    </div>
+  </div>
+  <div
+    className="input"
+  >
+    <input
+      type="text"
+    />
+  </div>
+</div>
+`;

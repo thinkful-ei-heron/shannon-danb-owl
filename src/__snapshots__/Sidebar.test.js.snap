@@ -60,6 +60,28 @@ exports[`rendering Sidebar renders correctly 1`] = `
         <img
           alt="avatar"
           className="avatar"
+          src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+        />
+        <ul
+          className="participantInfo"
+        >
+          <li>
+            Ashla Attwool
+          </li>
+          <li>
+            <span
+              className="greenCircle"
+            />
+            on stage
+          </li>
+        </ul>
+      </div>
+      <div
+        className="eachParticipantInfo"
+      >
+        <img
+          alt="avatar"
+          className="avatar"
           src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
         />
         <ul
@@ -73,28 +95,6 @@ exports[`rendering Sidebar renders correctly 1`] = `
               className="greenCircle"
             />
             in session
-          </li>
-        </ul>
-      </div>
-      <div
-        className="eachParticipantInfo"
-      >
-        <img
-          alt="avatar"
-          className="avatar"
-          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
-        />
-        <ul
-          className="participantInfo"
-        >
-          <li>
-            Axe Kubicka
-          </li>
-          <li>
-            <span
-              className="greyCircle"
-            />
-            left session
           </li>
         </ul>
       </div>
@@ -126,19 +126,19 @@ exports[`rendering Sidebar renders correctly 1`] = `
         <img
           alt="avatar"
           className="avatar"
-          src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
         />
         <ul
           className="participantInfo"
         >
           <li>
-            Ashla Attwool
+            Axe Kubicka
           </li>
           <li>
             <span
-              className="greenCircle"
+              className="greyCircle"
             />
-            on stage
+            left session
           </li>
         </ul>
       </div>
